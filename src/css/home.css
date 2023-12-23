@@ -1,0 +1,53 @@
+/*--Main--*/
+.container_image{
+  width: 100%;
+  position: relative;
+}
+.image_fond{
+  width: 100%;
+}
+
+.logo {
+  padding-left: 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.titre_accueil{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  color: white;
+  text-align: center;
+}
+
+.titre_accueil>p{
+  font-size: 24px;
+}
+
+.content-home {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 20px 20px ;
+  box-shadow: 0 0 30px gray;
+}
+
+.image_competence{
+  border-radius: 10px;
+  padding-top: 30px;
+  width: 100%;   
+}
+
+.titre-article {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+@media screen and ( max-width: 768px ){
+   .titre_accueil{
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}

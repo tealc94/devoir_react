@@ -1,0 +1,12 @@
+.center-content{
+    display: flex;
+    justify-content: center;
+}
+
+.image_service{
+    color:  #0d6efd;
+}
+
+.card_hover:hover .image_service{
+    color: #cde1f8;
+}
